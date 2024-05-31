@@ -19,7 +19,6 @@ const myPlugin: BunPlugin = {
         // get rust file name
         const filename = args.path.split("/").pop()!.split(".")[0];
 
-        console.log("path", filename)
         const path = `target/release/lib${filename}.${suffix}`;
 
         const lib = dlopen(path, {
