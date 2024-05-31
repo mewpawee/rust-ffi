@@ -1,0 +1,2 @@
+# bunfig.toml
+preload = ["./rustPlugin.ts"]
